@@ -59,6 +59,18 @@ Understanding any individual model is not enough,
 in these cases. Instead, we need some statistical epistemology, an appreciation of how
 statistical models relate to hypotheses and the natural mechanisms of interest.
 
+Most of the people think that statistical inference's goal is to test null hypothesis, so 
+"statistical procedures may falsify hypothesis to be good statistical scientist". But this
+is false because:
+1. Hypothesis are not models. Many hypothesis correspond to one model and many models can
+correspond to a single hypothesis.
+   
+2. Measurements matters. When data falsify a model, sometimes this model won't be a right
+model.
+   
+Falsification to prove that it won't work is not good science, but it helps to open the eyes
+to know how statistics works.
+
 Deductive falsification never works, the scientific method cannot
 be reduced to a statistical procedure, and so our statistical methods should not pretend. Statistical evidence is part of the hot mess that is science, with all of its combat and egotism and
 mutual coercion. If you believe that science does often work, then learning that it
