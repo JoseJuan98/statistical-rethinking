@@ -1,4 +1,4 @@
-<--
+<!--
 # https://github.com/JoseJuan98/Statistical_Rethinking_Exercices.git
 -->
 
