@@ -134,3 +134,20 @@ simultaneous problems:
 Bayesian data analysis takes a question in the form of a model
 and uses logic to produce an answer in the form of probability distributions.
 
+"We just use randomness to describe our uncertainty in the face of incomplete knowledge."
+
+Note that the preceding description doesn’t invoke anyone’s “beliefs” or subjective opinions. 
+Bayesian data analysis is just a logical procedure for processing information.
+
+Not only is there “Bayesian” and “frequentist” probability, e.g. the “logical” Cox 
+(or Laplace-Jeffreys-Cox-Jaynes) interpretation.
+
+#### Model comaprison and prediction
+
+Bayesian data analysis provides a way for models
+to learn from data. But when there is more than one plausible model—and in most mature
+fields there should be—how should we choose among them? One answer is to prefer models
+that make good predictions. This answer creates a lot of new questions, since knowing which
+model will make the best predictions seems to require knowing the future.
+Cross validation and information criteria, these tools aim to let us compare models based upon expected predictive
+accuracy.
