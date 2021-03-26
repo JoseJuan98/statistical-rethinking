@@ -149,5 +149,34 @@ to learn from data. But when there is more than one plausible model—and in mos
 fields there should be—how should we choose among them? One answer is to prefer models
 that make good predictions. This answer creates a lot of new questions, since knowing which
 model will make the best predictions seems to require knowing the future.
-Cross validation and information criteria, these tools aim to let us compare models based upon expected predictive
-accuracy.
+**Cross validation** and **information criteria**, these tools aim to let us compare models
+based upon expected predictive accuracy.
+
+Often complex models make worse predictions than simpler models. This is called 
+the Overfitting paradox: "fitting is easy, prediction is hard". Future data won't be like
+past data. Cross validation and information critieria can measure overfitting.
+
+#### Multilevel models
+
+They are models which each model is feeding into next. They help to solve the overfitting 
+problem with **Partial Pooling**. They are good in cases like models for missing data 
+(imputation), measurement error, factor analysis, some time series models, types of spatial 
+and network regression, and phylogenetic regressions.
+
+Multilevel models should be the default model to use, because even when well-controlled variables
+interact with unmeasured aspects of the individuals, groups, or populations studied. Multilevel models
+attempt to quantify the extent of this variation, as well as identify which units in the data responded
+in which ways.
+
+These benefits don’t come for free, however. Fitting and interpreting multilevel models can be 
+considerably harder than fitting and interpreting a traditional regression model.
+
+#### Graphical Causal Models
+
+Statistical models are never sufficient for inferring cause because it doesn't make a distinction.
+Facts outside the data are needed to decide which explanation is correct.
+
+Another paradox of Bayesian Data Analysis: "Models causally incorrect can make better predictions
+than those that are causally correct". Also known as the **Identification problem**. So,
+successful prediction doesn't require correct causal identification. predictions can
+improve when we use a model that is causally misleading.
