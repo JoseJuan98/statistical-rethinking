@@ -180,3 +180,21 @@ Another paradox of Bayesian Data Analysis: "Models causally incorrect can make b
 than those that are causally correct". Also known as the **Identification problem**. So,
 successful prediction doesn't require correct causal identification. predictions can
 improve when we use a model that is causally misleading.
+
+Causal inference requires a causal model that is separate from the statistical
+model. The data are not enough. We need a causal model used for design statistical models for causal 
+identification. But even when you don’t have a complete causal model, but
+only a heuristic one indicating which variables causally influence others, you can still make
+use of these logical tools, such ase a graphical causal model to represent a causal hypothesis.
+
+The simplest graphical causal model is a directed acyclic graph, usually called a DAG. 
+DAGs are heuristic—they are not detailed statistical models. But they allow us to deduce 
+which statistical models can provide valid causal inferences.
+
+The approach which dominates in many parts of biology and the social sciences is instead
+causal salad.36 Causal salad means tossing various “control” variables into a statistical model,
+observing changes in estimates, and then telling a story about causation. Causal salad seems founded
+on the notion that only omitted variables can mislead us about causation. But included variables can
+just as easily confound us. When tossing a causal salad, a model that makes good predictions may still
+mislead about causation. If we use the model to plan an intervention, it will get everything wrong.
+
