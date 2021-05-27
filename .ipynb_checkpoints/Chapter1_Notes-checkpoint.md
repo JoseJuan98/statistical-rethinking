@@ -1,3 +1,4 @@
+
 # Chapter 1 Notes - The Golem of Prague
 
 ## Summary of ideas
